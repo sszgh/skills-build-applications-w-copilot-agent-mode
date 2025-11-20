@@ -1,0 +1,110 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8e8ff 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #ff6f61;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Bootstrap overrides */
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8e8ff 100%);
+}
+
+.navbar {
+  background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  color: #6a11cb !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  color: #2575fc !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:hover {
+  color: #ff6f61 !important;
+}
+
+.table-primary {
+  background-color: #e3f0ff !important;
+  color: #6a11cb;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f8e8ff !important;
+}
+.table-bordered {
+  border: 2px solid #6a11cb;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.08);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #6a11cb;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(106,17,203,0.08);
+}
+
+/* Favicon and logo styles */
+.octofit-logo {
+  height: 48px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
